@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="me.maanex.mcdiscord.AppTest" time="0.004" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.boot.library.path" value="C:\PROGRA~1\Java\JDK-10~1.1\bin"/>
+    <property name="user.country.format" value="DE"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\andre\eclipse-workspace\mcdiscord"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\andre\eclipse-workspace\mcdiscord"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\andre\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\deps\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\PROGRA~1\Java\JDK-10~1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/lib/amd64;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\ffmpeg\bin;C:\Program Files\Gource\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Electron\Rcedit;C:\Program Files\PuTTY\;C:\Program Files\CMake\bin;C:\Tools\haxe\;C:\Tools\neko;C:\Tools\hl-1.9.0-win;C:\Program Files\dotnet\;C:\Program Files (x86)\GnuPG\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\sox-14-4-2;;C:\Program Files\erl10.3\bin;C:\Program Files (x86)\Elixir\bin;C:\Users\andre\.mix\escripts;C:\Program Files\nodejs\;C:\Users\andre\.cargo\bin;C:\Users\andre\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\andre\AppData\Local\Programs\Python\Python37-32\;C:\Users\andre\.windows-build-tools\python27\;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\deps\llvm\bin;C:\Program Files\heroku\bin;C:\Users\andre\AppData\Roaming\Dashlane\6.1903.0.16930\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\andre\AppData\Roaming\Dashlane\6.1903.0.16930\ucrt;C:\Users\andre\AppData\Roaming\Dashlane\6.1903.0.16930\bin\Qt;C:\Users\andre\AppData\Roaming\Dashlane\6.1903.0.16930\bin\Ssl;C:\Users\andre\AppData\Local\GitHubDesktop\bin;C:\deps\apache-maven-3.6.0\bin;C:\Tools\nginx-1.15.8;C:\Tools\ninja;C:\Program Files\LOVE;C:\Users\andre\AppData\Local\Programs\Python\Python37-32;C:\Users\andre\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\andre\.windows-build-tools\python27\Scripts;C:\Tools\OpenSSL-Win64\bin;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Users\andre\AppData\Roaming\npm;C:\WINDOWS\system32;;."/>
+    <property name="maven.conf" value="C:\deps\apache-maven-3.6.0\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\deps\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\andre"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="Andi"/>
+    <property name="java.class.path" value="C:\deps\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.home" value="C:\PROGRA~1\Java\JDK-10~1.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="maven.home" value="C:\deps\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="me.maanex.mcdiscord.AppTest" name="testApp" time="0.004"/>
+</testsuite>

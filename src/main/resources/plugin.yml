@@ -1,0 +1,10 @@
+name: DiscordBridge
+version: 1.0.0
+author: Maanex
+website: http://maanex.me/
+api-version: 1.13
+
+prefix: Discord
+main: me.maanex.mcdiscord.Main
+
+commands:

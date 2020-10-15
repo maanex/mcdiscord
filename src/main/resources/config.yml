@@ -1,0 +1,5 @@
+bot:
+  token: TOKEN
+  guild: 1234
+  channel: 1234
+  webhook: URL
