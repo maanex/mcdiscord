@@ -1,1 +1,11 @@
+me\maanex\mcdiscord\dclistener\Messages.class
 me\maanex\mcdiscord\DiscordManager$2.class
+me\maanex\mcdiscord\mclistener\JoinLeave.class
+me\maanex\mcdiscord\mclistener\Chat$ChatMessageSource.class
+me\maanex\mcdiscord\DiscordManager$SystemMessageType.class
+me\maanex\mcdiscord\DiscordManager.class
+me\maanex\mcdiscord\mclistener\Achievements.class
+me\maanex\mcdiscord\Main.class
+me\maanex\mcdiscord\mclistener\Chat.class
+me\maanex\mcdiscord\DiscordManager$1.class
+me\maanex\mcdiscord\mclistener\Death.class

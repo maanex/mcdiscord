@@ -1,7 +1,5 @@
 package me.maanex.mcdiscord;
 
-import java.io.IOException;
-
 import javax.security.auth.login.LoginException;
 
 import org.apache.http.client.methods.HttpPost;
@@ -81,12 +79,10 @@ public class DiscordManager {
 			req.setEntity(params);
 			client.execute(req);
 		} catch (Exception e) {
-			e.printStackTrace();
 		} finally {
 			try {
 				client.close();
-			} catch (IOException e) {
-				e.printStackTrace();
+			} catch (Exception e) {
 			}
 		}
 	}
