@@ -2,6 +2,7 @@ package me.maanex.mcdiscord.mclistener;
 
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
@@ -12,8 +13,9 @@ public class Chat implements Listener {
 	public Chat() {
 	}
 	
-	@EventHandler
+	@EventHandler(priority = EventPriority.HIGH)
 	private void onChat(AsyncPlayerChatEvent e) {
+		if (e.isCancelled()) return;
 		DiscordManager.userMessage(e.getPlayer(), e.getMessage());
 		e.setCancelled(true);
 		Bukkit.broadcastMessage(formatChatMessage(e.getPlayer().getDisplayName(), e.getMessage(), ChatMessageSource.MINECRAFT));

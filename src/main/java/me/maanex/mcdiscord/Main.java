@@ -6,6 +6,7 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import me.maanex.mcdiscord.mclistener.Chat;
+import me.maanex.mcdiscord.mclistener.Death;
 import me.maanex.mcdiscord.mclistener.JoinLeave;
 
 public class Main extends JavaPlugin {
@@ -56,6 +57,7 @@ public class Main extends JavaPlugin {
 		m.registerEvents(new JoinLeave(), this);
 //		m.registerEvents(new Achievements(), this); -- DONT, IT SPAMS
 		m.registerEvents(new Chat(), this);
+		m.registerEvents(new Death(), this);
 	}
 	
 	private void loginDiscord() {

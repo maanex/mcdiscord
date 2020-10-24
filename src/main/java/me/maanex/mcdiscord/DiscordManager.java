@@ -59,6 +59,10 @@ public class DiscordManager {
 				message = "<:message:536593879865098251> " + message;
 				break;
 				
+			case DEATH:
+				message = ":skull: " + message;
+				break;
+				
 			case BLANK: break;
 		}
 
@@ -127,7 +131,8 @@ public class DiscordManager {
 		PLAYER_LOGIN,
 		PLAYER_LOGOUT,
 		ACHIEVEMENT,
-		BLANK
+		BLANK,
+		DEATH
 	}
 
 }
